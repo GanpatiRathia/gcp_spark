@@ -3,63 +3,110 @@ Contains Jupyter Notebooks and  Procedure to interact with GCP spark jupyter
 
 
 ## How to use Dataproc for creating spark cluster
-
+<p>
+goto "https://console.cloud.google.com/"
+select project or create one
+Then on search bar type Dataproc to create spark cluster
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/1.png">
-<p>1</p>
+<p>1. Select Dataproc as in figure</p>
 
+<p>
+Click on Create Cluster.
+Google Cloud Dataproc lets you create Apache Hadoop Cluster without actually having to maintain different nodes in a cluster and underlying analytical tools.
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/2.png">
-<p>2</p>
+<p>2. Create Cluster</p>
 
+<p>
+Select Cluster on Compute Engine and Click on Create
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/3.png">
-<p>3</p>
+<p>
+3. Selecting Cluster on Compute Engine or GKE
+</p>
 
+<p>
+Setup the cluster as shown :
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/4.png">
-<p>4</p>
+<p>4. Setup the cluster</p>
 
+<p>
+Change the image type and version for different tools needed all image and version does not support specific tools and service.
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/5.png">
-<p>5</p>
+<p>5. Change of image type and version from the list</p>
 
+<p>
+Enable Component Gateway and select tools and services needed for your cluster.
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/6.png">
-<p>6</p>
+<p>6. Components</p>
 
+<p>
+Aftere selecting components and leaving others to default option, Click on Create.
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/7.png">
-<p>7</p>
+<p>7. Create Cluster</p>
 
+<p>
+It can show error if your quota for a specific type of compute service is exhausted by you like in the image.Then we need to configure nodes.
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/8.png">
-<p>8</p>
+<p>8. Error : Compute Resource Exhausted</p>
 
+<p>
+We need to configure our nodes which is available i.e. N1 series with 2 nodes. 
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/9.png">
-<p>9</p>
+<p>9. Node Configuration</p>
 
+<p>
+Rest all leaving it to default, set up the cluster by selecting appropriate components i.e. Anaconda, Jupyter Notebook etc. according to our needs and also Enable component gateway
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/10.png">
-<p>10</p>
+<p>10. Components</p>
 
+<p>
+After setting all configuration apache hadoop cluster will be created and you will see success status.
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/11.png">
-<p>11</p>
+<p>11. Successfully created cluster</p>
 
+<p>
+You can go to web interfaces to see different components to interact with apache hadoop cluster on GCP.
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/12.png">
-<p>12</p>
+<p>12. Web Interfaces</p>
 
+<p>
+Jupyter Interface where you can create new pyspark notebook.
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/13.png">
-<p>13</p>
+<p>13. Jupyter </p>
 
+<p>Notebook creation </p>
 <div align="center">
 <img src="/img/1.Dataproc/14.png">
-<p>14</p>
+<p>14. Notebook creation</p>
 
+<p>
+
+</p>
 <div align="center">
 <img src="/img/1.Dataproc/15.png">
 <p>15</p>
