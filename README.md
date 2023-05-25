@@ -61,7 +61,7 @@ Contains Jupyter Notebooks and  Procedure to interact with GCP spark jupyter
 <p>14</p>
 
 <div align="center">
-<img src="/img/Q1/15.png">
+<img src="/img/1.Dataproc/15.png">
 <p>15</p>
 
 ## Q1
