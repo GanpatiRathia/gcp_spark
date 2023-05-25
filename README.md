@@ -44,72 +44,74 @@ Change the image type and version for different tools needed all image and versi
 <p>5. Change of image type and version from the list</p>
 
 <p>
-Enable Component Gateway and select tools and services needed for your cluster.
+Select optional components i.e. Anaconda and Jupyter Notebook etc.
 </p>
 <div align="center">
 <img src="/img/1.Dataproc/6.png">
 <p>6. Components</p>
 
 <p>
-Aftere selecting components and leaving others to default option, Click on Create.
+Enable Component Gateway.
 </p>
 <div align="center">
 <img src="/img/1.Dataproc/7.png">
-<p>7. Create Cluster</p>
+<p>7. Component Gateway</p>
+
+<p>
+Aftere selecting components and leaving others to default option, Click on Create.
+</p>
+<div align="center">
+<img src="/img/1.Dataproc/8.png">
+<p>8. Create Cluster</p>
 
 <p>
 It can show error if your quota for a specific type of compute service is exhausted by you like in the image.Then we need to configure nodes.
 </p>
 <div align="center">
-<img src="/img/1.Dataproc/8.png">
-<p>8. Error : Compute Resource Exhausted</p>
+<img src="/img/1.Dataproc/9.png">
+<p>9. Error : Compute Resource Exhausted</p>
 
 <p>
 We need to configure our nodes which is available i.e. N1 series with 2 nodes. 
 </p>
 <div align="center">
-<img src="/img/1.Dataproc/9.png">
-<p>9. Node Configuration</p>
+<img src="/img/1.Dataproc/10.png">
+<p>10. Node Configuration</p>
 
 <p>
-Rest all leaving it to default, set up the cluster by selecting appropriate components i.e. Anaconda, Jupyter Notebook etc. according to our needs and also Enable component gateway
+Rest all leaving it to default, set up the cluster by selecting appropriate components i.e. Anaconda, Jupyter Notebook etc. according to our needs and also Enable component gateway.
 </p>
 <div align="center">
-<img src="/img/1.Dataproc/10.png">
-<p>10. Components</p>
+<img src="/img/1.Dataproc/11.png">
+<p>11. Components</p>
 
 <p>
 After setting all configuration apache hadoop cluster will be created and you will see success status.
 </p>
 <div align="center">
-<img src="/img/1.Dataproc/11.png">
-<p>11. Successfully created cluster</p>
+<img src="/img/1.Dataproc/12.png">
+<p>12. Successfully created cluster</p>
 
 <p>
 You can go to web interfaces to see different components to interact with apache hadoop cluster on GCP.
 </p>
 <div align="center">
-<img src="/img/1.Dataproc/12.png">
-<p>12. Web Interfaces</p>
+<img src="/img/1.Dataproc/13.png">
+<p>13. Web Interfaces</p>
 
-<p>
+<p> 
 Jupyter Interface where you can create new pyspark notebook.
 </p>
 <div align="center">
-<img src="/img/1.Dataproc/13.png">
-<p>13. Jupyter </p>
-
-<p>Notebook creation </p>
-<div align="center">
 <img src="/img/1.Dataproc/14.png">
-<p>14. Notebook creation</p>
+<p>14. Jupyter</p>
 
 <p>
-
+Notebook creation
 </p>
 <div align="center">
 <img src="/img/1.Dataproc/15.png">
-<p>15</p>
+<p>15. Notebook creation</p>
 
 ## Q1
 
